@@ -46,31 +46,33 @@ The following features were extracted from OHLCV data for Reliance:
 ---
 
 ## 📁 Folder Structure
+```
 reliance-stock-rf-classifier/
-│
-├── data/                          # Serialized features and labels
+├── data/
 │   ├── X.pkl
 │   └── y.pkl
 │
-├── models/                        # Saved trained models
-│   ├── rf_model.pkl              # Initial model
-│   └── rf_model_tuned.pkl        # Tuned best model
+├── models/
+│   ├── rf_model.pkl
+│   └── rf_model_tuned.pkl
 │
-├── notebooks/                     # Jupyter notebook(s)
+├── notebooks/
 │   ├── exploratory_analysis.ipynb
 │   └── RELIANCE_stock_data.xlsx
 │
-├── src/                           # All source code
-│   ├── data_normalization.py     # Scaling or transformation logic
-│   ├── data_preprocessing.py     # Cleaning & missing value handling
-│   ├── feature_engineering.py    # Feature creation (lags, MAs, etc.)
-│   ├── imports.py                # Centralized imports
-│   ├── model_predictions.py      # Model evaluation on test set
-│   ├── model_training.py         # Training + tuning RandomForest
-│   └── utils.py                  # Utility functions (if any)
+├── src/
+│   ├── __pycache__/
+│   ├── data_normalization.py
+│   ├── data_preprocessing.py
+│   ├── feature_engineering.py
+│   ├── imports.py
+│   ├── model_predictions.py
+│   ├── model_training.py
+│   ├── utils.py
+│   └── requirements.txt
 │
-├── requirements.txt              # Required libraries
-└── README.md                     # Project documentation
+├── README.md
+```
 
 
 Classification Report:
