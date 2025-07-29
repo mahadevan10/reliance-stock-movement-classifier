@@ -88,7 +88,7 @@ Classification Report:
 > 🔍 The model is currently more sensitive to class `0` (price down). Future work includes improving recall on class `1`.
 
 Visual Output:  
-![Prediction vs Actual](predictions/direction_plot.png)
+![Prediction vs Actual](images/prediction_plot.png)
 
 ---
 
